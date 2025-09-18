@@ -1,15 +1,10 @@
 # Trial
-class student:
-    pass
+while True:
+    choice = input("Do you want to enter another Score? Yes/No :")  # str
 
-    a = 10
-    b = 30
-    print(a+b)
-
-atm_pin = 9874
-user_input = 0
-
-while user_input != atm_pin:
-    user_input = int(input("Enter PIN: "))
+    if choice == "Yes":
+        another_score = int(input("Enter Student Score: "))  # interger
+        print(another_score)
+    else:
+        print("Thank you")   
     
-print("You can withdraw")
